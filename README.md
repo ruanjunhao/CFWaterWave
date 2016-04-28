@@ -1,6 +1,8 @@
 # 简介
 CFWaterWave是一个简单好用的iOS水波效果工具，可以让你的APP更加好看有趣
 
+![CFWaterWave效果展示](http://7xt4xp.com2.z0.glb.clouddn.com/github_CFWaterWave_show_01.gif)
+
 # 原理简介
 CFWaterWave的原理很简单，我们用Example里的工程做简介。(这里首先要感谢@hy，我敬爱的前辈，最初是从他这里学习的水波效果原理)
 
