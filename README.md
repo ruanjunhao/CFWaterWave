@@ -2,14 +2,13 @@
 CFWaterWave是一个简单好用的iOS水波效果工具，可以让你的APP更加好看有趣
 
 # 原理简介
-CFWaterWave的原理很简单，我们用Example里的工程做简介。(这里首先要感谢@hy我敬爱的前辈，最初是从他这里学习的水波效果原理)
-
-1. 首先准备两张图片，比如这样的：
+CFWaterWave的原理很简单，我们用Example里的工程做简介。(这里首先要感谢@hy，我敬爱的前辈，最初是从他这里学习的水波效果原理)
 
 ![白色图片](http://7xt4xp.com2.z0.glb.clouddn.com/github_CFWaterWave_pic_white.png-w100)
 ![红色图片](http://7xt4xp.com2.z0.glb.clouddn.com/github_CFWaterWave_pic_red.png-w100)
 ![叠加添加遮盖效果](http://7xt4xp.com2.z0.glb.clouddn.com/github_CFWaterWave_img_03.png-w100)
 
+1. 首先准备两张图片
 2. 将两张图放在重叠的位置
 3. 将其中一张图片加上波浪形的遮盖
 4. 如果波浪形的遮盖是动态再变化的的，就可以形成动态的波浪
