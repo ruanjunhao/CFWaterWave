@@ -22,7 +22,8 @@ CFWaterWave的原理很简单，我们用Example里的工程做简介。(这里�
 
 # 使用
 1. 创建CFWaterWave对象
-```
+
+```objc
 - (CFWaterWave *)waterWave {
     if (_waterWave == nil) {
         // 给定的frame和你的图片frame一致即可
@@ -32,8 +33,10 @@ CFWaterWave的原理很简单，我们用Example里的工程做简介。(这里�
     return _waterWave;
 }
 ```
+
 2. 实现好代理，在代理中给你想要实现水波纹的图片加上贝塞尔路径生成的遮盖
-```
+
+```objc
 - (void)waterWave:(CFWaterWave *)waterWave wavePath:(UIBezierPath *)path {
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.path = path.CGPath;
